@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import Link from 'next/link';
 import {motion} from 'framer-motion';
 
@@ -17,13 +17,13 @@ const Hero = () => {
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4 block'>
           people taking action.
           </p>
-          <Typed
+          {/* <Typed
           className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
             strings={['Victories', 'every', 'day.']}
             typeSpeed={120}
             backSpeed={140}
             loop
-          />
+          /> */}
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Create your  petition to support the cause</p>
         <Link href='/create'><motion.button whileHover={{ scale: 1.1 }}   whileTap={{ scale: 0.9 }} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Start a Petition</motion.button></Link>
